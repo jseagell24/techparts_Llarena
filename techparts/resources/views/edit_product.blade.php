@@ -50,6 +50,7 @@
       <input type="file" class="form-control" name="picture" accept="image/*">
     </div>
 
+      @csrf
     <div class="d-flex justify-content-between">
       <a href="{{route('product.list')}}" class="btn btn-secondary">Cancel</a>
       <button type="submit" class="btn btn-warning">Update Product</button>
